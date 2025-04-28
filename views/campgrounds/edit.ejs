@@ -15,10 +15,6 @@
                         placeholder="Austin, Texas" value="<%=campground.location%>">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="image">Add Images</label>
-                    <input type="file" name="image" id="image" multiple>
-                </div>
-                <div class="mb-3">
                     <label class="form-label" for="price">Campground Price</label>
                     <div class="input-group">
                         <span class="input-group-text" id="price-label">$</span>
@@ -31,6 +27,10 @@
                     <label class="form-label" for="description">Description</label>
                     <textarea class="form-control" type="text" id="description" required
                         name="campground[description]"><%=campground.description%></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="images" class="form-label">Add more images</label>
+                    <input class="form-control" type="file" id="images" multiple name="image">
                 </div>
                 <div class="mb-3">
                     <button class="btn btn-info text-light">Update Campground</button>
