@@ -11,6 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@maptiler/client": "^2.3.2",
+    "@maptiler/geocoding-control": "^2.1.6",
+    "@maptiler/sdk": "^3.2.0",
     "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
     "dotenv": "^16.5.0",
@@ -19,6 +22,7 @@
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "joi": "^17.13.3",
+    "maplibre-gl": "^5.4.0",
     "method-override": "^3.0.0",
     "mongoose": "^8.12.1",
     "multer": "^1.4.5-lts.1",
